@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Da+2:wght@400;500;600&family=Josefin+Slab:ital,wght@0,300;0,400;0,600;0,700;1,300;1,600&family=Mulish:ital,wght@0,200;0,300;0,400;0,500;1,200;1,300;1,400&family=Roboto:wght@500&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css');
+
+body, html {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+body{
+    background: url('./img/bg.jpg') 50% 50% no-repeat;
+    background-size:cover;
+    font-family: "Montserrat", sans-serif;
+}
+
+.container {
+    width: 100%;
+    position:relative;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+}
+.container h1{
+    font-family: 'Baloo Da 2', serif;
+    text-transform: uppercase;
+    font-size:4rem;
+    line-height:0rem;
+    letter-spacing: .8rem;
+}
+
+.container p {
+    font-family: 'Josefin+Slab', serif;
+    font-size: 1.2rem;
+    letter-spacing:.6rem
+
+}
+
+.container h1 span {
+
+    color: rgba(219,171,45, 1);
+}
+
+.container h2{
+    font-family: 'Baloo Da 2', serif;
+    margin: 0;
+    font-size:3rem;
+    font-weight: 200;
+}
+
+.count {
+    margin: 40px 0;;
+}
+.count-days {
+    display: inline-block;
+    width: 80px;
+    height:80px;
+    border: 1px solid;
+    margin: 0 30px;
+    font-size: .7rem;
+    border-radius:50%
+}
+
+.count span {
+    display: block;
+    font-size: 2rem;
+    margin-top: .8rem;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.5rem;
+}
+a:hover {
+    opacity: .8;
+    color: #fff;
+}
+
+.count i {
+    display:inline-block;
+    width: 40px;
+    height:30px;
+    border: none;
+    border: 1px solid;
+    background: #52666F;
+    border-radius:10%;
+    margin: 0 30px;
+    padding-top: 4px;
+    opacity:.6;
+    
+}
+
